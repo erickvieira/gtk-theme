@@ -34,7 +34,7 @@
 @mixin underline($type, $focus_color: $color_theme_2, $line_color: $fg_color) {
 
   @if $type == normal {
-    transition: $standard_transition;
+    transition: $standard_transition, $color_transition;
     border-image: radial-gradient(
       circle closest-corner at center calc(100% - 1px),
       to400($line_color) 100%,
@@ -166,7 +166,7 @@
 
 * {
   //@include reset; //FIXME: Remove for debugging
-  //transition: all 200ms ease;
+  //transition: all 50ms ease;
   outline: 0 solid to400($light_neutral_grey_700);
   outline-offset: -4px;
   background-clip: padding-box;
@@ -183,6 +183,7 @@
 .background {
   background-color: $bg_color;
   color: $fg_color;
+  transition: $color_transition;
 }
 
 *:disabled { 

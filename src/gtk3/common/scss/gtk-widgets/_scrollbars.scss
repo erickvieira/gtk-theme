@@ -7,7 +7,7 @@
  */
 
 scrollbar {
-  transition: $standard_transition;
+  transition: $standard_transition, $color_transition;
   background-clip: border-box;
   background-color: transparent;
   -GtkScrollbar-has-backward-stepper: false;
@@ -15,7 +15,7 @@ scrollbar {
   
   trough {
     padding: 0;
-    transition: $standard_transition;
+    transition: $standard_transition, $color_transition;
     border-radius: 0;
     background-clip: border-box;
     background-color: transparent;
@@ -27,7 +27,7 @@ scrollbar {
   
   slider {
     margin: $mini_padding;
-    transition: $standard_transition;
+    transition: $standard_transition, $color_transition;
     border: $border_size solid to600($bg_color);
     border-radius: $circular_radius;
     background-clip: border-box;

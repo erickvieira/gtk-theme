@@ -10,7 +10,7 @@
 .back-button.text-button {
   padding-right: $small_padding;
   padding-left: $standard_padding * 3;
-  transition: $standard_transition;
+  transition: $standard_transition, $color_transition;
   background-color: transparent;
   background-image: -gtk-icontheme('go-previous-symbolic');
   background-repeat: no-repeat no-repeat;

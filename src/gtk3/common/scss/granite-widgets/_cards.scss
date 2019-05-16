@@ -11,7 +11,7 @@
 }
 
 .card {
-  transition: $standard_transition;
+  transition: $standard_transition, $color_transition;
   border: none;
   border-radius: $corner_radius;
   background-color: $base_color;  

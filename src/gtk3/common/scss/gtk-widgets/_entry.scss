@@ -49,7 +49,7 @@ entry,
   @extend %entry-fallback;
   @include underline(normal);
   padding: $tiny_padding_em $small_padding_em;
-  transition: $standard_transition;
+  transition: $standard_transition, $color_transition;
   border-radius: $corner_radius $corner_radius 0 0;
   background-color: $bg_hl_color;
   color: $fg_color;

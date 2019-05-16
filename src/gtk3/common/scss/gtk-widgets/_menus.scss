@@ -26,7 +26,7 @@ menubar,
   -GtkWidget-window-dragging: true;
   
   > menuitem {
-    transition: $standard_transition;
+    transition: $standard_transition, $color_transition;
     border: $line_size solid transparent;
     color: $fg_color;
     
@@ -69,7 +69,7 @@ menubar,
     }
     
     > menuitem {
-      transition: $standard_transition;
+      transition: $standard_transition, $color_transition;
       border: $line_size solid transparent;
       color: to800($titlebar_fg_color);
       

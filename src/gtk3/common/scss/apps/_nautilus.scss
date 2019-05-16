@@ -96,7 +96,7 @@
   .floating-bar {
     min-height: $large_size;
     padding: 0;
-    transition: $standard_transition, border-width 0;
+    transition: $standard_transition, $color_transition, border-width 0;
     border-width: $border_size;
     border-style: solid solid none;
     border-radius: $corner_radius $corner_radius 0 0;

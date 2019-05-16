@@ -7,7 +7,7 @@
  */
 switch {
   margin: 4px 0; //needed to help prevent switches from growing.
-  transition: $standard_transition;
+  transition: $standard_transition, $color_transition;
   border-radius: $circular_radius;
   background-clip: padding-box;
   background-color: to600($fg_color);
@@ -57,7 +57,7 @@ switch {
     min-width: $switch_size;
     min-height: $switch_size;
     margin: 2px;
-    transition: $standard_transition;
+    transition: $standard_transition, $color_transition;
     border-radius: $circular_radius;
     background-color: $bg_hl_color;
     box-shadow: $shadow_1;
@@ -90,7 +90,7 @@ switch {
   }
 
   &:checked slider {
-    transition: all 500ms ease;
+    transition: all 300ms ease;
     color: $bg_hl_color;
   }
 

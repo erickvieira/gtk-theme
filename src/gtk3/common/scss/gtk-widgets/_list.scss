@@ -9,11 +9,12 @@
 list,
 .list {
   background-color: $base_color;
+  transition: $color_transition;
   
   row,
   .list-row {
     padding: 4px;
-    transition: $standard_transition;
+    transition: $standard_transition, $color_transition;
     border-color: transparent;
     
     > label {
@@ -21,6 +22,7 @@ list,
       margin: 
         $mini_padding_em $large_padding_em $mini_padding_em $tiny_padding_em;
       color: $fg_color;
+      transition: $color_transition;
     }
     
     &:hover {

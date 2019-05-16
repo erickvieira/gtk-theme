@@ -23,7 +23,7 @@
   .sidebar-row {
     margin: -1px;
     padding: $tinier_padding $standard_padding;
-    transition: $fast_transition; //Standard looks a tiny bit janky
+    transition: $color_transition; //Standard looks a tiny bit janky
     border-width: $no_padding;
     border-style: solid;
     border-color: transparent;
@@ -58,13 +58,13 @@
   
   button {
     padding: 0.5 * $no_padding_em;
-    transition: $fast_transition;
+    transition: $color_transition;
   }
   
   label,
   image {
     padding: 0.5 * $no_padding_em;
-    transition: $fast_transition;
+    transition: $color_transition;
   }
   
   .frame {

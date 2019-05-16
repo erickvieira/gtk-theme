@@ -67,3 +67,4 @@ $transition_duration: 300ms;
 // Transitions
 $standard_transition: all $transition_duration cubic-bezier(0.25, 0.8, 0.25, 1);
 $fast_transition: all $transition_duration / 3 cubic-bezier(0.25, 0.8, 0.25, 1);
+$color_transition: background-color 300ms ease, color 300ms ease;

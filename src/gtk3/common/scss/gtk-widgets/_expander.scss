@@ -11,7 +11,7 @@ expander arrow,
 .catefory-expander {
   min-width: $arrow_size;
   min-height: $arrow_size;
-  transition: $standard_transition;
+  transition: $standard_transition, $color_transition;
   -gtk-icon-source: -gtk-icontheme('pan-end-symbolic');
   
   &:checked {

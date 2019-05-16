@@ -44,7 +44,7 @@ button,
   min-width: $tiny_size;
   min-height: $tiny_size;
   padding: $tiny_padding_em $small_padding_em;
-  transition: $standard_transition;
+  transition: $standard_transition, $color_transition;
   border: none;
   border-radius: $corner_radius;
   background-color: $bg_hl_color;
@@ -267,7 +267,7 @@ modelbutton,
 .model,
 modelbutton.image-button {
   @include flat_button;
-  transition: $standard_transition;
+  transition: $standard_transition, $color_transition;
   border-radius: $corner_radius;
   background-color: transparent;
   font-weight: 400;

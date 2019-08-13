@@ -79,3 +79,52 @@ label {
     color: $fg_color;
   }
 }
+
+/*
+ * Disk Space Display
+ */
+
+// This is commonly found in Nautilus.
+
+.disk-space-display {
+  border: 2px solid transparent;
+
+  &.unknown {
+    border-color: if($color=='light', $dark_ui_500, $light_neutral_grey_700);
+    background-color: $dark_warm_grey;
+    color: $dark_warm_grey;
+
+    &.border {
+      color: if($color=='light', $dark_ui_500, $light_neutral_grey_700);
+    }
+  }
+
+  &.used {
+    border-color: $text_blue;
+    background-color: $blue;
+    color: $blue;
+
+    &.border {
+      color: $text_blue;
+    }
+  }
+
+  &.free {
+    // sass-lint:disable-block indentation
+    border-color: if($color=='dark', 
+      $light_neutral_grey_100, 
+      $light_neutral_grey_700);
+    background-color: if($color=='dark', 
+      $light_neutral_grey_500, 
+      $light_ui_900);
+    color: if($color=='dark', 
+      $light_neutral_grey_500, 
+      $light_ui_900);
+
+    &.border {
+      color: if($color=='dark', 
+        $light_neutral_grey_100, 
+        $light_neutral_grey_700);
+    }
+  }
+}

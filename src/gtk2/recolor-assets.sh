@@ -23,14 +23,14 @@
 
 # List of Current Color definitions:
 fg="574F4A"
-accent="FAA41A"
+accent="CF3B00"
 primary="48B9C7"
 bg="F5F5F5"
 bg_lighter="FAFAFA"
 base="FBFBFB"
 
 fg_dark="F6F6F6"
-accent_dark="BE7704"
+accent_dark="AF050B"
 primary_dark="2C8691"
 bg_dark="3F3B39"
 bg_lighter_dark="4C4845"

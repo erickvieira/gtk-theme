@@ -32,9 +32,9 @@
 $color_theme_1: if($color=='dark', $blue_700, $blue_500);
 $light_color_1: $blue_300;
 $dark_color_1: $blue_700;
-$color_theme_2: if($color=='dark', $orange_700, $orange_500);
-$light_color_2: $orange_300;
-$dark_color_2: $orange_900;
+$color_theme_2: if($color=='dark', $red_900, $red_700);
+$light_color_2: $red_500;
+$dark_color_2: $red_900;
 
 // Background UI Colors
 $base_color: if($color=='dark', $dark_ui_900, $white);

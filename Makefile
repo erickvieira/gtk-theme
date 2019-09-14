@@ -8,7 +8,7 @@ CFLAGS = -M -t expanded
 PREFIX = /usr/share
 THEMES_DIR = $(PREFIX)/themes
 SRC_DIR = $(CURDIR)/src
-theme_name = Pop
+theme_name = PopBlood
 build_output = $(CURDIR)/build
 
 variants := "" "-light" "-dark" "-slim" "-slim-light" "-slim-dark"
